@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExampleTableViewController: UIViewController {
+class ExampleTableViewController: TextFieldScrollableViewController {
 
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
