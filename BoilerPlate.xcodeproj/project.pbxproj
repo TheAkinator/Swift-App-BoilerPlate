@@ -15,6 +15,24 @@
 		C4762E9020A4BFB000EEFAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */; };
 		C4762E9B20A4BFB000EEFAA9 /* BoilerPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762E9A20A4BFB000EEFAA9 /* BoilerPlateTests.swift */; };
 		C4762EA620A4BFB000EEFAA9 /* BoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EA520A4BFB000EEFAA9 /* BoilerPlateUITests.swift */; };
+		C4762EBD20A4C07900EEFAA9 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EBC20A4C07900EEFAA9 /* Storyboards.swift */; };
+		C4762EBF20A4C0BF00EEFAA9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EBE20A4C0BF00EEFAA9 /* UIViewController+Ext.swift */; };
+		C4762EC120A4C22E00EEFAA9 /* NibLoadableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EC020A4C22E00EEFAA9 /* NibLoadableView+Ext.swift */; };
+		C4762EC320A4C2AF00EEFAA9 /* ReusableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EC220A4C2AF00EEFAA9 /* ReusableViewProtocols.swift */; };
+		C4762EC520A4C40F00EEFAA9 /* ReusableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EC420A4C40F00EEFAA9 /* ReusableView+Ext.swift */; };
+		C4762EC720A4C46100EEFAA9 /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EC620A4C46100EEFAA9 /* UITableViewCell+Ext.swift */; };
+		C4762EC920A4C6FF00EEFAA9 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EC820A4C6FF00EEFAA9 /* UITableView+Ext.swift */; };
+		C4762ECB20A4C74600EEFAA9 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ECA20A4C74600EEFAA9 /* UIColor+Ext.swift */; };
+		C4762ECD20A4C76100EEFAA9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ECC20A4C76100EEFAA9 /* UIView+Ext.swift */; };
+		C4762ECF20A4C76800EEFAA9 /* CALayer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ECE20A4C76800EEFAA9 /* CALayer+Ext.swift */; };
+		C4762ED120A4C76F00EEFAA9 /* UICollectionViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ED020A4C76F00EEFAA9 /* UICollectionViewCell+Ext.swift */; };
+		C4762ED320A4C77400EEFAA9 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ED220A4C77400EEFAA9 /* UICollectionView+Ext.swift */; };
+		C4762ED520A4C78400EEFAA9 /* UIDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ED420A4C78400EEFAA9 /* UIDevice+Ext.swift */; };
+		C4762ED720A4C92400EEFAA9 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762ED620A4C92400EEFAA9 /* ExampleTableViewController.swift */; };
+		C4762EDA20A4C9FF00EEFAA9 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4762ED920A4C9FF00EEFAA9 /* TableViewCell.xib */; };
+		C4762EDC20A4CA3200EEFAA9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EDB20A4CA3200EEFAA9 /* TableViewCell.swift */; };
+		C4762EDF20A4CCF500EEFAA9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EDE20A4CCF500EEFAA9 /* BaseViewController.swift */; };
+		C4762EE120A4CD7000EEFAA9 /* TextFieldScrollableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EE020A4CD6F00EEFAA9 /* TextFieldScrollableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		C4762EA120A4BFB000EEFAA9 /* BoilerPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4762EA520A4BFB000EEFAA9 /* BoilerPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerPlateUITests.swift; sourceTree = "<group>"; };
 		C4762EA720A4BFB000EEFAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4762EBC20A4C07900EEFAA9 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		C4762EBE20A4C0BF00EEFAA9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		C4762EC020A4C22E00EEFAA9 /* NibLoadableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibLoadableView+Ext.swift"; sourceTree = "<group>"; };
+		C4762EC220A4C2AF00EEFAA9 /* ReusableViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocols.swift; sourceTree = "<group>"; };
+		C4762EC420A4C40F00EEFAA9 /* ReusableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+Ext.swift"; sourceTree = "<group>"; };
+		C4762EC620A4C46100EEFAA9 /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		C4762EC820A4C6FF00EEFAA9 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		C4762ECA20A4C74600EEFAA9 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		C4762ECC20A4C76100EEFAA9 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		C4762ECE20A4C76800EEFAA9 /* CALayer+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Ext.swift"; sourceTree = "<group>"; };
+		C4762ED020A4C76F00EEFAA9 /* UICollectionViewCell+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Ext.swift"; sourceTree = "<group>"; };
+		C4762ED220A4C77400EEFAA9 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		C4762ED420A4C78400EEFAA9 /* UIDevice+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ext.swift"; sourceTree = "<group>"; };
+		C4762ED620A4C92400EEFAA9 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
+		C4762ED920A4C9FF00EEFAA9 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C4762EDB20A4CA3200EEFAA9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C4762EDE20A4CCF500EEFAA9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C4762EE020A4CD6F00EEFAA9 /* TextFieldScrollableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldScrollableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +135,18 @@
 		C4762E8120A4BFB000EEFAA9 /* BoilerPlate */ = {
 			isa = PBXGroup;
 			children = (
+				C4762ED820A4C9EE00EEFAA9 /* Cells */,
+				C4762EBB20A4C05E00EEFAA9 /* Enums */,
+				C4762EBA20A4C03600EEFAA9 /* Assets */,
+				C4762EB920A4C02300EEFAA9 /* Database */,
+				C4762EB820A4C00F00EEFAA9 /* Network */,
+				C4762EB720A4BFFA00EEFAA9 /* Protocols */,
+				C4762EB320A4BFBE00EEFAA9 /* Extensions */,
+				C4762EB620A4BFF100EEFAA9 /* Models */,
+				C4762EB520A4BFD700EEFAA9 /* Storyboards */,
+				C4762EB420A4BFCD00EEFAA9 /* ViewControllers */,
 				C4762E8220A4BFB000EEFAA9 /* AppDelegate.swift */,
-				C4762E8420A4BFB000EEFAA9 /* ViewController.swift */,
-				C4762E8620A4BFB000EEFAA9 /* Main.storyboard */,
-				C4762E8C20A4BFB000EEFAA9 /* Assets.xcassets */,
-				C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */,
 				C4762E9120A4BFB000EEFAA9 /* Info.plist */,
-				C4762E8920A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld */,
 			);
 			path = BoilerPlate;
 			sourceTree = "<group>";
@@ -126,6 +167,107 @@
 				C4762EA720A4BFB000EEFAA9 /* Info.plist */,
 			);
 			path = BoilerPlateUITests;
+			sourceTree = "<group>";
+		};
+		C4762EB320A4BFBE00EEFAA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EBE20A4C0BF00EEFAA9 /* UIViewController+Ext.swift */,
+				C4762ECC20A4C76100EEFAA9 /* UIView+Ext.swift */,
+				C4762ECE20A4C76800EEFAA9 /* CALayer+Ext.swift */,
+				C4762EC020A4C22E00EEFAA9 /* NibLoadableView+Ext.swift */,
+				C4762ED420A4C78400EEFAA9 /* UIDevice+Ext.swift */,
+				C4762ECA20A4C74600EEFAA9 /* UIColor+Ext.swift */,
+				C4762ED220A4C77400EEFAA9 /* UICollectionView+Ext.swift */,
+				C4762EC420A4C40F00EEFAA9 /* ReusableView+Ext.swift */,
+				C4762ED020A4C76F00EEFAA9 /* UICollectionViewCell+Ext.swift */,
+				C4762EC620A4C46100EEFAA9 /* UITableViewCell+Ext.swift */,
+				C4762EC820A4C6FF00EEFAA9 /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4762EB420A4BFCD00EEFAA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EDD20A4CCDC00EEFAA9 /* BaseControllers */,
+				C4762E8420A4BFB000EEFAA9 /* ViewController.swift */,
+				C4762ED620A4C92400EEFAA9 /* ExampleTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4762EB520A4BFD700EEFAA9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E8620A4BFB000EEFAA9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C4762EB620A4BFF100EEFAA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4762EB720A4BFFA00EEFAA9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EC220A4C2AF00EEFAA9 /* ReusableViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C4762EB820A4C00F00EEFAA9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C4762EB920A4C02300EEFAA9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E8920A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C4762EBA20A4C03600EEFAA9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */,
+				C4762E8C20A4BFB000EEFAA9 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C4762EBB20A4C05E00EEFAA9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EBC20A4C07900EEFAA9 /* Storyboards.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C4762ED820A4C9EE00EEFAA9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4762ED920A4C9FF00EEFAA9 /* TableViewCell.xib */,
+				C4762EDB20A4CA3200EEFAA9 /* TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C4762EDD20A4CCDC00EEFAA9 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EE020A4CD6F00EEFAA9 /* TextFieldScrollableViewController.swift */,
+				C4762EDE20A4CCF500EEFAA9 /* BaseViewController.swift */,
+			);
+			path = BaseControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +379,7 @@
 			files = (
 				C4762E9020A4BFB000EEFAA9 /* LaunchScreen.storyboard in Resources */,
 				C4762E8D20A4BFB000EEFAA9 /* Assets.xcassets in Resources */,
+				C4762EDA20A4C9FF00EEFAA9 /* TableViewCell.xib in Resources */,
 				C4762E8820A4BFB000EEFAA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +405,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4762EC120A4C22E00EEFAA9 /* NibLoadableView+Ext.swift in Sources */,
+				C4762EDF20A4CCF500EEFAA9 /* BaseViewController.swift in Sources */,
+				C4762EC720A4C46100EEFAA9 /* UITableViewCell+Ext.swift in Sources */,
+				C4762ED120A4C76F00EEFAA9 /* UICollectionViewCell+Ext.swift in Sources */,
+				C4762EDC20A4CA3200EEFAA9 /* TableViewCell.swift in Sources */,
+				C4762EC320A4C2AF00EEFAA9 /* ReusableViewProtocols.swift in Sources */,
+				C4762ED320A4C77400EEFAA9 /* UICollectionView+Ext.swift in Sources */,
+				C4762EBD20A4C07900EEFAA9 /* Storyboards.swift in Sources */,
+				C4762EC520A4C40F00EEFAA9 /* ReusableView+Ext.swift in Sources */,
 				C4762E8520A4BFB000EEFAA9 /* ViewController.swift in Sources */,
+				C4762ECD20A4C76100EEFAA9 /* UIView+Ext.swift in Sources */,
+				C4762ECF20A4C76800EEFAA9 /* CALayer+Ext.swift in Sources */,
+				C4762EBF20A4C0BF00EEFAA9 /* UIViewController+Ext.swift in Sources */,
+				C4762EC920A4C6FF00EEFAA9 /* UITableView+Ext.swift in Sources */,
+				C4762ECB20A4C74600EEFAA9 /* UIColor+Ext.swift in Sources */,
+				C4762ED520A4C78400EEFAA9 /* UIDevice+Ext.swift in Sources */,
+				C4762ED720A4C92400EEFAA9 /* ExampleTableViewController.swift in Sources */,
+				C4762EE120A4CD7000EEFAA9 /* TextFieldScrollableViewController.swift in Sources */,
 				C4762E8320A4BFB000EEFAA9 /* AppDelegate.swift in Sources */,
 				C4762E8B20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld in Sources */,
 			);
