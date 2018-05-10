@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4762E8320A4BFB000EEFAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762E8220A4BFB000EEFAA9 /* AppDelegate.swift */; };
+		C4762E8520A4BFB000EEFAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762E8420A4BFB000EEFAA9 /* ViewController.swift */; };
+		C4762E8820A4BFB000EEFAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4762E8620A4BFB000EEFAA9 /* Main.storyboard */; };
+		C4762E8B20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4762E8920A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld */; };
+		C4762E8D20A4BFB000EEFAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4762E8C20A4BFB000EEFAA9 /* Assets.xcassets */; };
+		C4762E9020A4BFB000EEFAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */; };
+		C4762E9B20A4BFB000EEFAA9 /* BoilerPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762E9A20A4BFB000EEFAA9 /* BoilerPlateTests.swift */; };
+		C4762EA620A4BFB000EEFAA9 /* BoilerPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4762EA520A4BFB000EEFAA9 /* BoilerPlateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4762E9720A4BFB000EEFAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4762E7720A4BFB000EEFAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4762E7E20A4BFB000EEFAA9;
+			remoteInfo = BoilerPlate;
+		};
+		C4762EA220A4BFB000EEFAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4762E7720A4BFB000EEFAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4762E7E20A4BFB000EEFAA9;
+			remoteInfo = BoilerPlate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4762E7F20A4BFB000EEFAA9 /* BoilerPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4762E8220A4BFB000EEFAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4762E8420A4BFB000EEFAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4762E8720A4BFB000EEFAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4762E8A20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoilerPlate.xcdatamodel; sourceTree = "<group>"; };
+		C4762E8C20A4BFB000EEFAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4762E8F20A4BFB000EEFAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4762E9120A4BFB000EEFAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4762E9620A4BFB000EEFAA9 /* BoilerPlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerPlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4762E9A20A4BFB000EEFAA9 /* BoilerPlateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerPlateTests.swift; sourceTree = "<group>"; };
+		C4762E9C20A4BFB000EEFAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4762EA120A4BFB000EEFAA9 /* BoilerPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilerPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4762EA520A4BFB000EEFAA9 /* BoilerPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerPlateUITests.swift; sourceTree = "<group>"; };
+		C4762EA720A4BFB000EEFAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4762E7C20A4BFB000EEFAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9320A4BFB000EEFAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9E20A4BFB000EEFAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4762E7620A4BFB000EEFAA9 = {
+			isa = PBXGroup;
+			children = (
+				C4762E8120A4BFB000EEFAA9 /* BoilerPlate */,
+				C4762E9920A4BFB000EEFAA9 /* BoilerPlateTests */,
+				C4762EA420A4BFB000EEFAA9 /* BoilerPlateUITests */,
+				C4762E8020A4BFB000EEFAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4762E8020A4BFB000EEFAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E7F20A4BFB000EEFAA9 /* BoilerPlate.app */,
+				C4762E9620A4BFB000EEFAA9 /* BoilerPlateTests.xctest */,
+				C4762EA120A4BFB000EEFAA9 /* BoilerPlateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4762E8120A4BFB000EEFAA9 /* BoilerPlate */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E8220A4BFB000EEFAA9 /* AppDelegate.swift */,
+				C4762E8420A4BFB000EEFAA9 /* ViewController.swift */,
+				C4762E8620A4BFB000EEFAA9 /* Main.storyboard */,
+				C4762E8C20A4BFB000EEFAA9 /* Assets.xcassets */,
+				C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */,
+				C4762E9120A4BFB000EEFAA9 /* Info.plist */,
+				C4762E8920A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld */,
+			);
+			path = BoilerPlate;
+			sourceTree = "<group>";
+		};
+		C4762E9920A4BFB000EEFAA9 /* BoilerPlateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4762E9A20A4BFB000EEFAA9 /* BoilerPlateTests.swift */,
+				C4762E9C20A4BFB000EEFAA9 /* Info.plist */,
+			);
+			path = BoilerPlateTests;
+			sourceTree = "<group>";
+		};
+		C4762EA420A4BFB000EEFAA9 /* BoilerPlateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4762EA520A4BFB000EEFAA9 /* BoilerPlateUITests.swift */,
+				C4762EA720A4BFB000EEFAA9 /* Info.plist */,
+			);
+			path = BoilerPlateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4762E7E20A4BFB000EEFAA9 /* BoilerPlate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4762EAA20A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlate" */;
+			buildPhases = (
+				C4762E7B20A4BFB000EEFAA9 /* Sources */,
+				C4762E7C20A4BFB000EEFAA9 /* Frameworks */,
+				C4762E7D20A4BFB000EEFAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoilerPlate;
+			productName = BoilerPlate;
+			productReference = C4762E7F20A4BFB000EEFAA9 /* BoilerPlate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4762E9520A4BFB000EEFAA9 /* BoilerPlateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4762EAD20A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlateTests" */;
+			buildPhases = (
+				C4762E9220A4BFB000EEFAA9 /* Sources */,
+				C4762E9320A4BFB000EEFAA9 /* Frameworks */,
+				C4762E9420A4BFB000EEFAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4762E9820A4BFB000EEFAA9 /* PBXTargetDependency */,
+			);
+			name = BoilerPlateTests;
+			productName = BoilerPlateTests;
+			productReference = C4762E9620A4BFB000EEFAA9 /* BoilerPlateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4762EA020A4BFB000EEFAA9 /* BoilerPlateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4762EB020A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlateUITests" */;
+			buildPhases = (
+				C4762E9D20A4BFB000EEFAA9 /* Sources */,
+				C4762E9E20A4BFB000EEFAA9 /* Frameworks */,
+				C4762E9F20A4BFB000EEFAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4762EA320A4BFB000EEFAA9 /* PBXTargetDependency */,
+			);
+			name = BoilerPlateUITests;
+			productName = BoilerPlateUITests;
+			productReference = C4762EA120A4BFB000EEFAA9 /* BoilerPlateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4762E7720A4BFB000EEFAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Raul Marques de Oliveira";
+				TargetAttributes = {
+					C4762E7E20A4BFB000EEFAA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C4762E9520A4BFB000EEFAA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4762E7E20A4BFB000EEFAA9;
+					};
+					C4762EA020A4BFB000EEFAA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4762E7E20A4BFB000EEFAA9;
+					};
+				};
+			};
+			buildConfigurationList = C4762E7A20A4BFB000EEFAA9 /* Build configuration list for PBXProject "BoilerPlate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4762E7620A4BFB000EEFAA9;
+			productRefGroup = C4762E8020A4BFB000EEFAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4762E7E20A4BFB000EEFAA9 /* BoilerPlate */,
+				C4762E9520A4BFB000EEFAA9 /* BoilerPlateTests */,
+				C4762EA020A4BFB000EEFAA9 /* BoilerPlateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4762E7D20A4BFB000EEFAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4762E9020A4BFB000EEFAA9 /* LaunchScreen.storyboard in Resources */,
+				C4762E8D20A4BFB000EEFAA9 /* Assets.xcassets in Resources */,
+				C4762E8820A4BFB000EEFAA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9420A4BFB000EEFAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9F20A4BFB000EEFAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4762E7B20A4BFB000EEFAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4762E8520A4BFB000EEFAA9 /* ViewController.swift in Sources */,
+				C4762E8320A4BFB000EEFAA9 /* AppDelegate.swift in Sources */,
+				C4762E8B20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9220A4BFB000EEFAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4762E9B20A4BFB000EEFAA9 /* BoilerPlateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4762E9D20A4BFB000EEFAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4762EA620A4BFB000EEFAA9 /* BoilerPlateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4762E9820A4BFB000EEFAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4762E7E20A4BFB000EEFAA9 /* BoilerPlate */;
+			targetProxy = C4762E9720A4BFB000EEFAA9 /* PBXContainerItemProxy */;
+		};
+		C4762EA320A4BFB000EEFAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4762E7E20A4BFB000EEFAA9 /* BoilerPlate */;
+			targetProxy = C4762EA220A4BFB000EEFAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4762E8620A4BFB000EEFAA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4762E8720A4BFB000EEFAA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4762E8E20A4BFB000EEFAA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4762E8F20A4BFB000EEFAA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4762EA820A4BFB000EEFAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4762EA920A4BFB000EEFAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4762EAB20A4BFB000EEFAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4762EAC20A4BFB000EEFAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4762EAE20A4BFB000EEFAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerPlate.app/BoilerPlate";
+			};
+			name = Debug;
+		};
+		C4762EAF20A4BFB000EEFAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilerPlate.app/BoilerPlate";
+			};
+			name = Release;
+		};
+		C4762EB120A4BFB000EEFAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoilerPlate;
+			};
+			name = Debug;
+		};
+		C4762EB220A4BFB000EEFAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GU7GC8K67U;
+				INFOPLIST_FILE = BoilerPlateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bepid.BoilerPlateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoilerPlate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4762E7A20A4BFB000EEFAA9 /* Build configuration list for PBXProject "BoilerPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4762EA820A4BFB000EEFAA9 /* Debug */,
+				C4762EA920A4BFB000EEFAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4762EAA20A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4762EAB20A4BFB000EEFAA9 /* Debug */,
+				C4762EAC20A4BFB000EEFAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4762EAD20A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4762EAE20A4BFB000EEFAA9 /* Debug */,
+				C4762EAF20A4BFB000EEFAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4762EB020A4BFB000EEFAA9 /* Build configuration list for PBXNativeTarget "BoilerPlateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4762EB120A4BFB000EEFAA9 /* Debug */,
+				C4762EB220A4BFB000EEFAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4762E8920A4BFB000EEFAA9 /* BoilerPlate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4762E8A20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodel */,
+			);
+			currentVersion = C4762E8A20A4BFB000EEFAA9 /* BoilerPlate.xcdatamodel */;
+			path = BoilerPlate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4762E7720A4BFB000EEFAA9 /* Project object */;
+}
