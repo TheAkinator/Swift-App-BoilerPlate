@@ -17,7 +17,6 @@ class ViewController: BaseViewController {
 
 
     @IBAction func next(_ sender: Any) {
-        
         let dest = ExampleTableViewController.instantiateFromStoryboard(storyboard: .Main)
         present(dest, animated: true, completion: nil)
     }
